@@ -11,6 +11,12 @@ The analysis aims to address challenges in understanding customer behavior, impr
 **Size**: 62,884 rows and 37 columns across 5 tables.  
 
 ---
+## 🛠️ Key Transformations on the data
+* Added a currency_for_date column to both the exchange_rates and sales tables to handle the many-to-many relationship, enabling precise currency value mapping for specific dates by combining currency and date fields.
+
+* Created a profit column in the products table by subtracting the cost from the price, providing insights into product profitability.
+
+---
 ## Sales Performance
 
 ![image](https://github.com/user-attachments/assets/bcdc73a8-b1fa-4e1e-a3c8-62fe15c82d2d)
